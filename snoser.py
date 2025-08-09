@@ -686,6 +686,7 @@ async def process_bot_username(message: types.Message, state: FSMContext):
         print(f"Error: {e}")
 
 async def main():
+    
     bot = Bot(token="8120819650:AAEbxgE5CfMjXo6AzZAgZ_gSIhUU2hzWnGg")
     dp = Dispatcher()
 
